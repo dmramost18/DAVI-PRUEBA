@@ -2,11 +2,11 @@
 
 Este proyecto contiene pruebas automatizadas utilizando Cucumber, Selenium y Serenity BDD. Con lenguaje JAVA
 
+
+prueba
 ## Requisitos
 
-- Java JDK 8 o superior
-- Maven
-- Tener instalado el IDE IntelliJ
+
 
 ## Instrucciones de ejecución
 
