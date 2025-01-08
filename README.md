@@ -2,11 +2,6 @@
 
 Este proyecto contiene pruebas automatizadas utilizando Cucumber, Selenium y Serenity BDD. Con lenguaje JAVA
 
-## Requisitos
-
- - Java 21
- - Maven
-
 ## Instrucciones de ejecución
 
 1. Clona el repositorio en tu máquina local.
