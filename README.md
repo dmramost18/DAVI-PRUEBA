@@ -1,12 +1,11 @@
-  # Proyecto de pruebas automatizadas, MBaaS
+  # Proyecto de pruebas automatizadas Capacitación Equipo Panamá
 
 Este proyecto contiene pruebas automatizadas utilizando Cucumber, Selenium y Serenity BDD. Con lenguaje JAVA
 
-
-prueba
 ## Requisitos
 
-
+ - Java 21
+ - Maven
 
 ## Instrucciones de ejecución
 
