@@ -2,6 +2,9 @@
 
 Este proyecto contiene pruebas automatizadas utilizando Cucumber, Selenium y Serenity BDD. Con lenguaje JAVA
 
+prueba con página de stickers
+## Requisitos
+
 ## Instrucciones de ejecución
 
 1. Clona el repositorio en tu máquina local.
