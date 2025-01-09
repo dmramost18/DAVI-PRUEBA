@@ -25,3 +25,8 @@ Feature:Ingreso a MBaaS
   Scenario: Salida de pagina Web
     Given Usuario sale de la URL
 
+  @Amazon
+   #IngresoGoogleSteps
+  Scenario: Ingreso a pagina Web
+    Given Usuario accede a Amazon .com
+
