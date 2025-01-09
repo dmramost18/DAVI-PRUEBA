@@ -30,3 +30,7 @@ Feature:Ingreso a MBaaS
   Scenario: Ingreso a pagina Web
     Given Usuario accede a Amazon .com
 
+  @Entrada
+    #ButtonForgotPasswordSteps
+  Scenario: Salida de pagina Web pero vuelve a entrar
+    Given Usuario sale de la URL pero vuelve a entrar
