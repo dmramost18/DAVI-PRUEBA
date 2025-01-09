@@ -10,4 +10,7 @@ Feature:Ingreso a MBaaS
   Scenario: Ingreso a pagina Web
     Given Usuario tiene acceso a la URL
 
-
+  @Pago
+   #ButtonForgotPasswordSteps
+  Scenario: Pago pagina Web
+    Given Usuario realiza pago acceso a la URL
