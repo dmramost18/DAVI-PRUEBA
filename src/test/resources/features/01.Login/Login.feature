@@ -1,23 +1,26 @@
 @FeatureLogin
-Feature:Ingreso a MBaaS
-
-  Como usuario
+Feature: Ingreso a Web
 
   # ************************************** Pagina Principal *********************************************** #
 
-  @Ingreso
-   #ButtonForgotPasswordSteps
-  Scenario: Ingreso a pagina Web
-    Given Usuario tiene acceso a la URL
+  @Search
+   #FlaticonSteps
+  Scenario: Ingreso a pagina Web Flaticon
+    #Task
+    Given Usuario tiene acceso a flaticon
+    #Task
+    When Realizo una busqueda
+    #Questions
+    Then se visualiza el resultado de la busqueda
 
-  @Internet
-   #ButtonForgotPasswordSteps
-  Scenario: Ingreso a pagina Web
+  @Youtube
+   #YoutubeSteps
+  Scenario: Ingreso a youtube
     Given Usuario tiene acceso a la internet
 
   @Google
-   #IngresoGoogleSteps
-  Scenario: Ingreso a pagina Web
+   #
+  Scenario: Ingreso a Google
     Given Usuario accede a Google .com
 
 

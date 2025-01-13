@@ -42,3 +42,7 @@ mvn clean verify -Dcucumber.options="src/test/resources/features/"
 ``````
 mvn serenity:check-gherkin
 ``````
+
+``````
+mvn clean verify  -Dcucumber.filter.tags=@Search
+``````
