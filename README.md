@@ -44,5 +44,5 @@ mvn serenity:check-gherkin
 ``````
 
 ``````
-mvn clean verify  -Dcucumber.filter.tags=@Search
+mvn clean verify  -Dcucumber.filter.tags=@isFriday
 ``````
