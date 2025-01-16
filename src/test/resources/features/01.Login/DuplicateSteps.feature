@@ -6,4 +6,6 @@ Feature: Validar el uso de pasos duplicados sin crear mas logica
       Given Usuario tiene acceso a flaticon
       When da clic en el icon user
       Then se visualiza el form de inicio de sesion
-        | Inicia sesión |
+        | Inicia sesión        |
+        | Continuar con Google |
+        | Continúa con Apple   |

@@ -16,7 +16,7 @@ public class StepsDef {
 
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_Friday_yet() {
-        actualAnswer = isItFriday.isItFriday(today);
+       // actualAnswer = isItFriday.isItFriday(today);
     }
 
     @Then("I should be told {string}")

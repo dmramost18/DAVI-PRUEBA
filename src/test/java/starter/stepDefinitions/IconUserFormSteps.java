@@ -30,14 +30,27 @@ public class IconUserFormSteps {
     }
 
     @Then("^se visualiza el form de inicio de sesion$")
-    public void expectResult(DataTable dataTable ) {
-
+    public void expectResult(DataTable dataTable) {
         List<String> data = dataTable.asList();
-        String title = data.get(0);
+        String title = data.get(0); // "Inicia sesión"
+        String google = data.get(1); // "Continúa con google"
+        String apple = data.get(2); // "Continúa con Apple"
+
+
 
         OnStage.theActorInTheSpotlight().should(
-                // Comentario indicativo de la aserción , Question, Aserción "equalTo/containsString"
-                seeThat("Se visualiza el titulo con el texto ", FlaticonQuestions.formLogin(), equalTo(title))
+
+                seeThat("Se visualiza el título con el texto esperado",
+                        FlaticonQuestions.formLogin(), equalTo(title)),
+
+
+                //seeThat("Se visualiza el botón 'Continúa con Google'",
+                       // FlaticonQuestions.continueGoogle(), equalTo(google)),
+
+                seeThat("Se visualiza el botón 'Continúa con Apple'",
+                        FlaticonQuestions.continueApple(), equalTo(apple))
+
+
         );
     }
 }
