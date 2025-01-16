@@ -11,7 +11,7 @@ import java.io.IOException;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class ManageDataExcel {
-    private static String rutaArchivoExcel = "src/main/java/utils/data/Data.xlsx";
+    /*private static String rutaArchivoExcel = "src/main/java/utils/data/Data.xlsx";
 
 
     // Método para guardar el valor en una celda enviando el nombre de la hoja, número de columna y número de fila
@@ -99,4 +99,6 @@ public class ManageDataExcel {
                 return "";
         }
     }
+
+     */
 }

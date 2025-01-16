@@ -33,16 +33,23 @@ Ejecutar todos los feature del proyecto con edge
 ```
 mvn clean verify -Denvironment=edge
 ```
-## Ejecutar el feature de Login
 
+## Ejecutar el feature de Login archivo feature
 ```
-mvn clean verify -Dcucumber.options="src/test/resources/features/"
+mvn clean verify -Dcucumber.options="src/test/resources/features/01.Login/Exercise.feature"
 ```
 
+## Validar los escenarios de un feature <-- Deben ser unicos
 ``````
 mvn serenity:check-gherkin
 ``````
 
+## Ejecutar los escenarios con un tag especifico
 ``````
-mvn clean verify  -Dcucumber.filter.tags=@Search
+mvn clean verify  -Dcucumber.filter.tags=@FormLoginFlaticon
+``````
+
+## Ejecutar los escenarios de un feature con un tag especifico
+``````
+mvn clean verify  -Dcucumber.options="src/test/resources/features/01.Login/Login.feature" -Dcucumber.filter.tags=@Search
 ``````

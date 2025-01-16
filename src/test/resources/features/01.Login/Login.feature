@@ -3,7 +3,7 @@ Feature: Ingreso a Web
 
   # ************************************** Pagina Principal *********************************************** #
 
-  @Search
+  @FormLogin
    #FlaticonSteps
   Scenario: Ingreso a pagina Web Flaticon
     #Task
@@ -21,7 +21,7 @@ Feature: Ingreso a Web
   @Google
    #
   Scenario: Ingreso a Google
-    Given Usuario accede a Google .com
+    Given Usuario accede a Google .c
 
 
 
