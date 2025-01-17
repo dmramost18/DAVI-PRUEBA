@@ -20,8 +20,9 @@ public class SendInfo {
 
     public static Performable emailAndPass(String email, String password) {
         return Task.where("{0} ingresa email y contraseña",
+                // con ambos pueden enviar valores a los campos
                 Enter.theValue(email).into(FlaticonUI.INPUT_EMAIL),
-                SendKeys.of(password).into(FlaticonUI.INPUT_PASSWORD)
+                SendKeys.of("").into(FlaticonUI.INPUT_PASSWORD)
         );
     }
 }

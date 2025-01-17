@@ -1,11 +1,15 @@
 package starter.stepDefinitions;
 
 import Models.User;
+import Questions.FlaticonQuestions;
 import Task.ClicButtonEmail;
 import Task.GlobalTask;
 import Task.SendInfo;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.Matchers.equalTo;
 
 public class SendDataFomrSteps {
 
@@ -28,5 +32,11 @@ public class SendDataFomrSteps {
 
     @When("^no se visualicen advertencias$")
     public void expectResult() {
+
+        OnStage.theActorInTheSpotlight().should(
+                // seeThat ("Se visualiza el mensaje : ", FlaticonQuestions.advertencia(), equalTo("Introduce un email con formato ejemplo@ejemplo.com") ),
+                seeThat ("Se visualiza el mensaje : ", FlaticonQuestions.advertenciaBoolean(), equalTo(false) )
+
+        );
     }
 }

@@ -43,6 +43,9 @@ public class FlaticonUI {
     public static final Target INPUT_PASSWORD = Target.the("Password")
             .locatedBy("//*[@id=\"log-in\"]/div[1]/form/div[2]/label/input");
 
+    public static final Target ADVERTENCIA = Target.the("Advertencia de ingreso de dato")
+            .locatedBy("//*[@id=\"log-in\"]/div[1]/form/div[1]/div/p");
+
 
 
 

@@ -11,7 +11,6 @@ Feature: Validar el uso de pasos duplicados sin crear mas logica
       | Continúa con Apple   |
       | Continúa con email   |
 
-
   @FormEmail
     #SendDataFomrSteps
   Scenario: Ingresar datos de formulario
