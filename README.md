@@ -46,7 +46,7 @@ mvn serenity:check-gherkin
 
 ## Ejecutar los escenarios con un tag especifico
 ``````
-mvn clean verify  -Dcucumber.filter.tags=@FormLoginFlaticon
+mvn clean verify  -Dcucumber.filter.tags=@FormEmail
 ``````
 
 ## Ejecutar los escenarios de un feature con un tag especifico

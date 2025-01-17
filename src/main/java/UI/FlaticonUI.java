@@ -22,11 +22,30 @@ public class FlaticonUI {
     public static final Target CONTINUE_EMAIL = Target.the("Continue with Email")
             .located(By.xpath("//span[text()='Continúa con email']"));
 
+    public static final Target BUTTON_EMAIL = Target.the("Continue with Email")
+            .located(By.xpath("//button[.='Continúa con email']"));
+
     public static final Target CREATE_ACCOUNT = Target.the("Create Account")
             .locatedBy("//p[text()='¿Todavía no tienes una cuenta? ']");
 
     public static final Target COOKIES = Target.the("Cookies")
             .locatedBy("//button[text()='Configuración de cookies']");
+
+    public static final Target REJECT_ALL = Target.the("Reject All")
+            .locatedBy("//*[@id=\"onetrust-reject-all-handler\"]");
+
+
+    /* Elementos de la visual de ingreso con Email */
+
+    public static final Target INPUT_EMAIL = Target.the("Email")
+            .locatedBy("//*[@id=\"log-in\"]/div[1]/form/div[1]/label/input");
+
+    public static final Target INPUT_PASSWORD = Target.the("Password")
+            .locatedBy("//*[@id=\"log-in\"]/div[1]/form/div[2]/label/input");
+
+
+
+
 
 
 

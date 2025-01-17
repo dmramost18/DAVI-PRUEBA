@@ -5,9 +5,9 @@ public class User {
     private String email;
     private String password;
 
-    public User(String mail, String number) {
+    public User(String mail, String password) {
         this.email = mail;
-        this.password = number;
+        this.password = password;
     }
 
     public String getEmail() {
