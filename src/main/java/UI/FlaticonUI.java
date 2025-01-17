@@ -20,7 +20,7 @@ public class FlaticonUI {
 
 
     public static final Target CONTINUE_EMAIL = Target.the("Continue with Email")
-            .locatedBy("//span[text()='Continúa con email']");
+            .located(By.xpath("//span[text()='Continúa con email']"));
 
     public static final Target CREATE_ACCOUNT = Target.the("Create Account")
             .locatedBy("//p[text()='¿Todavía no tienes una cuenta? ']");

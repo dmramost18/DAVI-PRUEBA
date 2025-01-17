@@ -19,6 +19,10 @@ public class FlaticonQuestions {
     public static Question<String> continueApple() {
         return actor -> FlaticonUI.CONTINUE_APPLE.resolveFor(actor).getText().trim();
     }
+    public static Question<String> continueEmail() {
+        return actor -> FlaticonUI.CONTINUE_EMAIL.resolveFor(actor).getText().trim();
+    }
+
 
     }
 
