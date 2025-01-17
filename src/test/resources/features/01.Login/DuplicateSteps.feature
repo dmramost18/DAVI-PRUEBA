@@ -9,3 +9,4 @@ Feature: Validar el uso de pasos duplicados sin crear mas logica
         | Inicia sesión        |
         | Continuar con Google |
         | Continúa con Apple   |
+        | Continúa con email |

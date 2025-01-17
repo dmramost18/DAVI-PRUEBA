@@ -35,6 +35,7 @@ public class IconUserFormSteps {
         String title = data.get(0); // "Inicia sesión"
         String google = data.get(1); // "Continúa con google"
         String apple = data.get(2); // "Continúa con Apple"
+        String email = data.get(3); // "Continúa con email"
 
 
 
@@ -48,8 +49,10 @@ public class IconUserFormSteps {
                        // FlaticonQuestions.continueGoogle(), equalTo(google)),
 
                 seeThat("Se visualiza el botón 'Continúa con Apple'",
-                        FlaticonQuestions.continueApple(), equalTo(apple))
+                        FlaticonQuestions.continueApple(), equalTo(apple)),
 
+                seeThat("Se visualiza el botón 'Continúa con email'",
+                        FlaticonQuestions.continueEmail(), equalTo(email))
 
         );
     }
